@@ -21,6 +21,33 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.banner-content {
+    max-width: 585px;
+    max-height: 356px;
+
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
 }
 
 /* main style  */
@@ -33,6 +60,9 @@
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -55,4 +85,18 @@ nav .menu a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+
+#banner {
+    /* border: 1px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 38px 0px 230px;
+    align-items: center;
+}
+
+.bannar-img img {
+    max-width: 584px;
+    max-height: 676px;
+    vertical-align: middle;
 }
